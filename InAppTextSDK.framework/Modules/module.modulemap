@@ -1,0 +1,10 @@
+framework module InAppTextSDK {
+  umbrella header "InAppTextSDK.h"
+
+  export *
+  module * { export * }
+}
+
+module InAppTextSDK.Swift {
+    header "InAppTextSDK-Swift.h"
+}

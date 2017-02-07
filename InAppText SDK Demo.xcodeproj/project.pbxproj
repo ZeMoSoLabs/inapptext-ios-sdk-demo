@@ -1,0 +1,334 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FF68942A1E49ED9F00413100 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6894291E49ED9F00413100 /* AppDelegate.swift */; };
+		FF68942F1E49ED9F00413100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF68942D1E49ED9F00413100 /* Main.storyboard */; };
+		FF6894311E49ED9F00413100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF6894301E49ED9F00413100 /* Assets.xcassets */; };
+		FF6894341E49ED9F00413100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF6894321E49ED9F00413100 /* LaunchScreen.storyboard */; };
+		FF68943F1E49EE9800413100 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF68943D1E49EE9800413100 /* DetailViewController.swift */; };
+		FF6894401E49EE9800413100 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF68943E1E49EE9800413100 /* MainViewController.swift */; };
+		FF6894461E49F04A00413100 /* InAppTextSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF6894411E49F03100413100 /* InAppTextSDK.framework */; };
+		FF6894471E49F04A00413100 /* InAppTextSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF6894411E49F03100413100 /* InAppTextSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FF6894481E49F04A00413100 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FF6894471E49F04A00413100 /* InAppTextSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		FF6894261E49ED9F00413100 /* InAppText SDK Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "InAppText SDK Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF6894291E49ED9F00413100 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF68942E1E49ED9F00413100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF6894301E49ED9F00413100 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF6894331E49ED9F00413100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF6894351E49ED9F00413100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF68943D1E49EE9800413100 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		FF68943E1E49EE9800413100 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FF6894411E49F03100413100 /* InAppTextSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = InAppTextSDK.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FF6894231E49ED9F00413100 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6894461E49F04A00413100 /* InAppTextSDK.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FF68941D1E49ED9F00413100 = {
+			isa = PBXGroup;
+			children = (
+				FF6894281E49ED9F00413100 /* InAppText SDK Demo */,
+				FF6894411E49F03100413100 /* InAppTextSDK.framework */,
+				FF6894271E49ED9F00413100 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FF6894271E49ED9F00413100 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FF6894261E49ED9F00413100 /* InAppText SDK Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FF6894281E49ED9F00413100 /* InAppText SDK Demo */ = {
+			isa = PBXGroup;
+			children = (
+				FF6894291E49ED9F00413100 /* AppDelegate.swift */,
+				FF68943C1E49EE9800413100 /* ViewControllers */,
+				FF68942D1E49ED9F00413100 /* Main.storyboard */,
+				FF6894301E49ED9F00413100 /* Assets.xcassets */,
+				FF6894321E49ED9F00413100 /* LaunchScreen.storyboard */,
+				FF6894351E49ED9F00413100 /* Info.plist */,
+			);
+			path = "InAppText SDK Demo";
+			sourceTree = "<group>";
+		};
+		FF68943C1E49EE9800413100 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FF68943D1E49EE9800413100 /* DetailViewController.swift */,
+				FF68943E1E49EE9800413100 /* MainViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FF6894251E49ED9F00413100 /* InAppText SDK Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF6894381E49ED9F00413100 /* Build configuration list for PBXNativeTarget "InAppText SDK Demo" */;
+			buildPhases = (
+				FF6894221E49ED9F00413100 /* Sources */,
+				FF6894231E49ED9F00413100 /* Frameworks */,
+				FF6894241E49ED9F00413100 /* Resources */,
+				FF6894481E49F04A00413100 /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "InAppText SDK Demo";
+			productName = "InAppText SDK Demo";
+			productReference = FF6894261E49ED9F00413100 /* InAppText SDK Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FF68941E1E49ED9F00413100 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "ZeMoSo Technologoes Pvt. Ltd.";
+				TargetAttributes = {
+					FF6894251E49ED9F00413100 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = FF6894211E49ED9F00413100 /* Build configuration list for PBXProject "InAppText SDK Demo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FF68941D1E49ED9F00413100;
+			productRefGroup = FF6894271E49ED9F00413100 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FF6894251E49ED9F00413100 /* InAppText SDK Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FF6894241E49ED9F00413100 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF6894341E49ED9F00413100 /* LaunchScreen.storyboard in Resources */,
+				FF6894311E49ED9F00413100 /* Assets.xcassets in Resources */,
+				FF68942F1E49ED9F00413100 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FF6894221E49ED9F00413100 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF68943F1E49EE9800413100 /* DetailViewController.swift in Sources */,
+				FF68942A1E49ED9F00413100 /* AppDelegate.swift in Sources */,
+				FF6894401E49EE9800413100 /* MainViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FF68942D1E49ED9F00413100 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF68942E1E49ED9F00413100 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF6894321E49ED9F00413100 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF6894331E49ED9F00413100 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FF6894361E49ED9F00413100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FF6894371E49ED9F00413100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FF6894391E49ED9F00413100 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "InAppText SDK Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zemosolabs.InAppText.InAppText-SDK-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF68943A1E49ED9F00413100 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "InAppText SDK Demo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zemosolabs.InAppText.InAppText-SDK-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FF6894211E49ED9F00413100 /* Build configuration list for PBXProject "InAppText SDK Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6894361E49ED9F00413100 /* Debug */,
+				FF6894371E49ED9F00413100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FF6894381E49ED9F00413100 /* Build configuration list for PBXNativeTarget "InAppText SDK Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF6894391E49ED9F00413100 /* Debug */,
+				FF68943A1E49ED9F00413100 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FF68941E1E49ED9F00413100 /* Project object */;
+}
