@@ -17,7 +17,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
         // Override point for customization after application launch.
-        InAppText.instantiateSDK(true)
+        InAppText.instantiateSDK(true,microphoneEnabled: true)
         return true
     }
 

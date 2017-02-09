@@ -4,10 +4,6 @@
 <dict>
 	<key>files</key>
 	<dict>
-		<key>.DS_Store</key>
-		<data>
-		j6KjqyBkx1+UDoVKMzOhF/8Tx+s=
-		</data>
 		<key>Headers/InAppTextSDK-Swift.h</key>
 		<data>
 		+7knUZNuqIjDTekNGQGKafaWbn4=
@@ -22,31 +18,27 @@
 		</data>
 		<key>IATSaveRecordingViewController.nib</key>
 		<data>
-		xPhbKyU6a25GgoK7wjf9xnhX7CU=
+		5GlaRzkTR5dwZGyOUCZvBSwWN/U=
 		</data>
 		<key>Info.plist</key>
 		<data>
 		lvI7ShnhkMScmiyDtdbG5Q5p72k=
 		</data>
-		<key>Modules/.DS_Store</key>
-		<data>
-		6o/TZ85Pj9HrhgWMt7LCPaT4xp8=
-		</data>
 		<key>Modules/InAppTextSDK.swiftmodule/arm.swiftdoc</key>
 		<data>
-		xSQSrk+cu8bbriSQrtzCyB+QHnA=
+		gHS5Ho3dI5O91UEfzlq8GIUWjcM=
 		</data>
 		<key>Modules/InAppTextSDK.swiftmodule/arm.swiftmodule</key>
 		<data>
-		XZM7QZJ83s1+8CbXYqQoyIdp6R8=
+		BmNjTMJx1T+vnj6HOD77Eh2WRLU=
 		</data>
 		<key>Modules/InAppTextSDK.swiftmodule/arm64.swiftdoc</key>
 		<data>
-		VVQ0R2G50RJW0o6/Ws7yd8r8WRs=
+		qETPLZAJedwLKS4GRqKV5xlETtw=
 		</data>
 		<key>Modules/InAppTextSDK.swiftmodule/arm64.swiftmodule</key>
 		<data>
-		merJnkKxgILfSopXascBHHTtNkw=
+		RJVUM9LA9JJe9MMkFSD39fihNm4=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -92,55 +84,55 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			xPhbKyU6a25GgoK7wjf9xnhX7CU=
+			5GlaRzkTR5dwZGyOUCZvBSwWN/U=
 			</data>
 			<key>hash2</key>
 			<data>
-			bTyWMpxS4Wmb851Zg4OfMdF74WFQ4sM8ePtYVrn7N3M=
+			lLdDzd8IffAQ4La3MRJ8JKZTj6mWc9kTaUQHKMnbXEQ=
 			</data>
 		</dict>
 		<key>Modules/InAppTextSDK.swiftmodule/arm.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			xSQSrk+cu8bbriSQrtzCyB+QHnA=
+			gHS5Ho3dI5O91UEfzlq8GIUWjcM=
 			</data>
 			<key>hash2</key>
 			<data>
-			20O5OtJ1e+/FRsMKxGlKKd1cFEK/0RqoVBW2/Dvd6X0=
+			JSdcCfZxEzhqS7l5wLj0A9jd/lSZ8e49U+Q+1lM2Ddc=
 			</data>
 		</dict>
 		<key>Modules/InAppTextSDK.swiftmodule/arm.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			XZM7QZJ83s1+8CbXYqQoyIdp6R8=
+			BmNjTMJx1T+vnj6HOD77Eh2WRLU=
 			</data>
 			<key>hash2</key>
 			<data>
-			kzV/LNpZm+8JlnpyiFP+/HLr1LeK5zGxjDxlGJ1b2fA=
+			7xG1p0VQmT9GwUE8pC8ZjzgsTaW7GOhtSw8Z8+1fmjs=
 			</data>
 		</dict>
 		<key>Modules/InAppTextSDK.swiftmodule/arm64.swiftdoc</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			VVQ0R2G50RJW0o6/Ws7yd8r8WRs=
+			qETPLZAJedwLKS4GRqKV5xlETtw=
 			</data>
 			<key>hash2</key>
 			<data>
-			aiMvtpDSPYmhylJbQCp5UdGkqBS3gBNXAxTudBlWjLU=
+			jdC0koH8AmC8NWmfWBepGZk6csbpvtd7M5+VMngVdUw=
 			</data>
 		</dict>
 		<key>Modules/InAppTextSDK.swiftmodule/arm64.swiftmodule</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			merJnkKxgILfSopXascBHHTtNkw=
+			RJVUM9LA9JJe9MMkFSD39fihNm4=
 			</data>
 			<key>hash2</key>
 			<data>
-			Y9COYlq3zmCSE7hIlr2Xd+KhV9H9/NtumC1asPnWkCg=
+			M5jEd6gu8ki+59chyzOUsXBOP6JbjCOKIMlK9I+5IW8=
 			</data>
 		</dict>
 		<key>Modules/module.modulemap</key>

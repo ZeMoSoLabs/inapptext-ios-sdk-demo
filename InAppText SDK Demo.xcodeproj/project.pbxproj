@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		FF2AC5411E4AFDE0008DD545 /* InAppTextSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2AC5401E4AFDDF008DD545 /* InAppTextSDK.framework */; };
-		FF2AC5421E4AFDE0008DD545 /* InAppTextSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF2AC5401E4AFDDF008DD545 /* InAppTextSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF5875CF1E4C470F00B3F935 /* InAppTextSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5875CE1E4C470F00B3F935 /* InAppTextSDK.framework */; };
+		FF5875D01E4C471000B3F935 /* InAppTextSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF5875CE1E4C470F00B3F935 /* InAppTextSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF68942A1E49ED9F00413100 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6894291E49ED9F00413100 /* AppDelegate.swift */; };
 		FF68942F1E49ED9F00413100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF68942D1E49ED9F00413100 /* Main.storyboard */; };
 		FF6894311E49ED9F00413100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF6894301E49ED9F00413100 /* Assets.xcassets */; };
@@ -18,13 +18,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		FF6894481E49F04A00413100 /* Embed Frameworks */ = {
+		FF5875D11E4C471000B3F935 /* Embed Frameworks */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FF2AC5421E4AFDE0008DD545 /* InAppTextSDK.framework in Embed Frameworks */,
+				FF5875D01E4C471000B3F935 /* InAppTextSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -32,7 +32,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		FF2AC5401E4AFDDF008DD545 /* InAppTextSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = InAppTextSDK.framework; sourceTree = "<group>"; };
+		FF5875CE1E4C470F00B3F935 /* InAppTextSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = InAppTextSDK.framework; sourceTree = "<group>"; };
 		FF6894261E49ED9F00413100 /* InAppText SDK Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "InAppText SDK Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF6894291E49ED9F00413100 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF68942E1E49ED9F00413100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF2AC5411E4AFDE0008DD545 /* InAppTextSDK.framework in Frameworks */,
+				FF5875CF1E4C470F00B3F935 /* InAppTextSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -58,8 +58,8 @@
 		FF68941D1E49ED9F00413100 = {
 			isa = PBXGroup;
 			children = (
-				FF2AC5401E4AFDDF008DD545 /* InAppTextSDK.framework */,
 				FF6894281E49ED9F00413100 /* InAppText SDK Demo */,
+				FF5875CE1E4C470F00B3F935 /* InAppTextSDK.framework */,
 				FF6894271E49ED9F00413100 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -104,7 +104,7 @@
 				FF6894221E49ED9F00413100 /* Sources */,
 				FF6894231E49ED9F00413100 /* Frameworks */,
 				FF6894241E49ED9F00413100 /* Resources */,
-				FF6894481E49F04A00413100 /* Embed Frameworks */,
+				FF5875D11E4C471000B3F935 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
