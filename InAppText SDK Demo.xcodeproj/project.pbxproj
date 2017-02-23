@@ -7,14 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6C0EBFB088C5C977AA6B8DE8 /* Pods_InAppText_SDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC5F211372C0809E9093531 /* Pods_InAppText_SDK_Demo.framework */; };
+		CF2F355CBBCB085772728F42 /* Pods_ChatBox_IncomeTax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE6F9AA33DD65B3AE76A0BF /* Pods_ChatBox_IncomeTax.framework */; };
+		FF06B7951E5EB36E00B8793B /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF06B7941E5EB36E00B8793B /* TermsViewController.swift */; };
 		FF5875CF1E4C470F00B3F935 /* InAppTextSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5875CE1E4C470F00B3F935 /* InAppTextSDK.framework */; };
 		FF5875D01E4C471000B3F935 /* InAppTextSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF5875CE1E4C470F00B3F935 /* InAppTextSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF5875D91E4C6CEF00B3F935 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5875D81E4C6CEF00B3F935 /* AppDelegate.swift */; };
+		FF5875DB1E4C6CEF00B3F935 /* ITChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5875DA1E4C6CEF00B3F935 /* ITChatViewController.swift */; };
+		FF5875DE1E4C6CEF00B3F935 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5875DC1E4C6CEF00B3F935 /* Main.storyboard */; };
+		FF5875E01E4C6CEF00B3F935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5875DF1E4C6CEF00B3F935 /* Assets.xcassets */; };
+		FF5875E31E4C6CEF00B3F935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5875E11E4C6CEF00B3F935 /* LaunchScreen.storyboard */; };
+		FF5875E81E4C6CF800B3F935 /* InAppTextSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5875CE1E4C470F00B3F935 /* InAppTextSDK.framework */; };
+		FF5875E91E4C6CF800B3F935 /* InAppTextSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF5875CE1E4C470F00B3F935 /* InAppTextSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF5875EC1E4C738400B3F935 /* CBConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5875EB1E4C738400B3F935 /* CBConstants.swift */; };
 		FF68942A1E49ED9F00413100 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6894291E49ED9F00413100 /* AppDelegate.swift */; };
 		FF68942F1E49ED9F00413100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF68942D1E49ED9F00413100 /* Main.storyboard */; };
 		FF6894311E49ED9F00413100 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF6894301E49ED9F00413100 /* Assets.xcassets */; };
 		FF6894341E49ED9F00413100 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF6894321E49ED9F00413100 /* LaunchScreen.storyboard */; };
 		FF68943F1E49EE9800413100 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF68943D1E49EE9800413100 /* DetailViewController.swift */; };
 		FF6894401E49EE9800413100 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF68943E1E49EE9800413100 /* MainViewController.swift */; };
+		FF7DCD651E518B52000C8221 /* OutgoingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7DCD641E518B52000C8221 /* OutgoingTableViewCell.swift */; };
+		FF7DCD671E518B62000C8221 /* InComingTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7DCD661E518B62000C8221 /* InComingTableViewCell.swift */; };
+		FF7DCD6A1E518D10000C8221 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF7DCD691E518D10000C8221 /* ChatMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,10 +43,36 @@
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		FF5875EA1E4C6CF800B3F935 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				FF5875E91E4C6CF800B3F935 /* InAppTextSDK.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		1A41041F28C1903390591791 /* Pods-InAppText SDK Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InAppText SDK Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InAppText SDK Demo/Pods-InAppText SDK Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		2775FE1B61D3CCD2D6221F97 /* Pods-ChatBox-IncomeTax.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBox-IncomeTax.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ChatBox-IncomeTax/Pods-ChatBox-IncomeTax.debug.xcconfig"; sourceTree = "<group>"; };
+		364D624436BA7229B2D6051C /* Pods-ChatBox-IncomeTax.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ChatBox-IncomeTax.release.xcconfig"; path = "Pods/Target Support Files/Pods-ChatBox-IncomeTax/Pods-ChatBox-IncomeTax.release.xcconfig"; sourceTree = "<group>"; };
+		44AAD15357D4257683DFFDA5 /* Pods-InAppText SDK Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InAppText SDK Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-InAppText SDK Demo/Pods-InAppText SDK Demo.release.xcconfig"; sourceTree = "<group>"; };
+		ABE6F9AA33DD65B3AE76A0BF /* Pods_ChatBox_IncomeTax.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatBox_IncomeTax.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAC5F211372C0809E9093531 /* Pods_InAppText_SDK_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InAppText_SDK_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF06B7941E5EB36E00B8793B /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
 		FF5875CE1E4C470F00B3F935 /* InAppTextSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = InAppTextSDK.framework; sourceTree = "<group>"; };
+		FF5875D61E4C6CEF00B3F935 /* ChatBox-IncomeTax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChatBox-IncomeTax.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FF5875D81E4C6CEF00B3F935 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FF5875DA1E4C6CEF00B3F935 /* ITChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITChatViewController.swift; sourceTree = "<group>"; };
+		FF5875DD1E4C6CEF00B3F935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FF5875DF1E4C6CEF00B3F935 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FF5875E21E4C6CEF00B3F935 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FF5875E41E4C6CEF00B3F935 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF5875EB1E4C738400B3F935 /* CBConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CBConstants.swift; sourceTree = "<group>"; };
 		FF6894261E49ED9F00413100 /* InAppText SDK Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "InAppText SDK Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF6894291E49ED9F00413100 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF68942E1E49ED9F00413100 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -41,26 +81,79 @@
 		FF6894351E49ED9F00413100 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FF68943D1E49EE9800413100 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		FF68943E1E49EE9800413100 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		FF7DCD641E518B52000C8221 /* OutgoingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OutgoingTableViewCell.swift; sourceTree = "<group>"; };
+		FF7DCD661E518B62000C8221 /* InComingTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InComingTableViewCell.swift; sourceTree = "<group>"; };
+		FF7DCD691E518D10000C8221 /* ChatMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FF5875D31E4C6CEF00B3F935 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5875E81E4C6CF800B3F935 /* InAppTextSDK.framework in Frameworks */,
+				CF2F355CBBCB085772728F42 /* Pods_ChatBox_IncomeTax.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FF6894231E49ED9F00413100 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				FF5875CF1E4C470F00B3F935 /* InAppTextSDK.framework in Frameworks */,
+				6C0EBFB088C5C977AA6B8DE8 /* Pods_InAppText_SDK_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		32F029D653B81F5597231D7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2775FE1B61D3CCD2D6221F97 /* Pods-ChatBox-IncomeTax.debug.xcconfig */,
+				364D624436BA7229B2D6051C /* Pods-ChatBox-IncomeTax.release.xcconfig */,
+				1A41041F28C1903390591791 /* Pods-InAppText SDK Demo.debug.xcconfig */,
+				44AAD15357D4257683DFFDA5 /* Pods-InAppText SDK Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C6FBE5A76ED57998742F7C94 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				ABE6F9AA33DD65B3AE76A0BF /* Pods_ChatBox_IncomeTax.framework */,
+				BAC5F211372C0809E9093531 /* Pods_InAppText_SDK_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF5875D71E4C6CEF00B3F935 /* ChatBox-IncomeTax */ = {
+			isa = PBXGroup;
+			children = (
+				FF5875D81E4C6CEF00B3F935 /* AppDelegate.swift */,
+				FF5875DA1E4C6CEF00B3F935 /* ITChatViewController.swift */,
+				FF06B7941E5EB36E00B8793B /* TermsViewController.swift */,
+				FF5875EB1E4C738400B3F935 /* CBConstants.swift */,
+				FF7DCD681E518CF7000C8221 /* Models */,
+				FF7DCD631E518B36000C8221 /* TableViewCells */,
+				FF5875DC1E4C6CEF00B3F935 /* Main.storyboard */,
+				FF5875DF1E4C6CEF00B3F935 /* Assets.xcassets */,
+				FF5875E11E4C6CEF00B3F935 /* LaunchScreen.storyboard */,
+				FF5875E41E4C6CEF00B3F935 /* Info.plist */,
+			);
+			path = "ChatBox-IncomeTax";
+			sourceTree = "<group>";
+		};
 		FF68941D1E49ED9F00413100 = {
 			isa = PBXGroup;
 			children = (
 				FF6894281E49ED9F00413100 /* InAppText SDK Demo */,
 				FF5875CE1E4C470F00B3F935 /* InAppTextSDK.framework */,
+				FF5875D71E4C6CEF00B3F935 /* ChatBox-IncomeTax */,
 				FF6894271E49ED9F00413100 /* Products */,
+				32F029D653B81F5597231D7E /* Pods */,
+				C6FBE5A76ED57998742F7C94 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -68,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				FF6894261E49ED9F00413100 /* InAppText SDK Demo.app */,
+				FF5875D61E4C6CEF00B3F935 /* ChatBox-IncomeTax.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -94,17 +188,58 @@
 			path = ViewControllers;
 			sourceTree = "<group>";
 		};
+		FF7DCD631E518B36000C8221 /* TableViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				FF7DCD641E518B52000C8221 /* OutgoingTableViewCell.swift */,
+				FF7DCD661E518B62000C8221 /* InComingTableViewCell.swift */,
+			);
+			path = TableViewCells;
+			sourceTree = "<group>";
+		};
+		FF7DCD681E518CF7000C8221 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FF7DCD691E518D10000C8221 /* ChatMessage.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FF5875D51E4C6CEF00B3F935 /* ChatBox-IncomeTax */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FF5875E71E4C6CEF00B3F935 /* Build configuration list for PBXNativeTarget "ChatBox-IncomeTax" */;
+			buildPhases = (
+				AE16DCECF6291EBBAF88680A /* [CP] Check Pods Manifest.lock */,
+				FF5875D21E4C6CEF00B3F935 /* Sources */,
+				FF5875D31E4C6CEF00B3F935 /* Frameworks */,
+				FF5875D41E4C6CEF00B3F935 /* Resources */,
+				FF5875EA1E4C6CF800B3F935 /* Embed Frameworks */,
+				3003BD4C742A22F78C6064D1 /* [CP] Embed Pods Frameworks */,
+				76AA16A9A2984BE7708CFA25 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ChatBox-IncomeTax";
+			productName = "ChatBox-IncomeTax";
+			productReference = FF5875D61E4C6CEF00B3F935 /* ChatBox-IncomeTax.app */;
+			productType = "com.apple.product-type.application";
+		};
 		FF6894251E49ED9F00413100 /* InAppText SDK Demo */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FF6894381E49ED9F00413100 /* Build configuration list for PBXNativeTarget "InAppText SDK Demo" */;
 			buildPhases = (
+				BAE468B41D0DEECFA74041A4 /* [CP] Check Pods Manifest.lock */,
 				FF6894221E49ED9F00413100 /* Sources */,
 				FF6894231E49ED9F00413100 /* Frameworks */,
 				FF6894241E49ED9F00413100 /* Resources */,
 				FF5875D11E4C471000B3F935 /* Embed Frameworks */,
+				DECFA440B3D52FF98D7DEF44 /* [CP] Embed Pods Frameworks */,
+				E7724DE0D3C59BC93AD35CED /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -125,6 +260,10 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "ZeMoSo Technologoes Pvt. Ltd.";
 				TargetAttributes = {
+					FF5875D51E4C6CEF00B3F935 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = D3Q6GS68TN;
+					};
 					FF6894251E49ED9F00413100 = {
 						CreatedOnToolsVersion = 7.3.1;
 					};
@@ -144,11 +283,22 @@
 			projectRoot = "";
 			targets = (
 				FF6894251E49ED9F00413100 /* InAppText SDK Demo */,
+				FF5875D51E4C6CEF00B3F935 /* ChatBox-IncomeTax */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FF5875D41E4C6CEF00B3F935 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF5875E31E4C6CEF00B3F935 /* LaunchScreen.storyboard in Resources */,
+				FF5875E01E4C6CEF00B3F935 /* Assets.xcassets in Resources */,
+				FF5875DE1E4C6CEF00B3F935 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FF6894241E49ED9F00413100 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -161,7 +311,114 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3003BD4C742A22F78C6064D1 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatBox-IncomeTax/Pods-ChatBox-IncomeTax-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		76AA16A9A2984BE7708CFA25 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ChatBox-IncomeTax/Pods-ChatBox-IncomeTax-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AE16DCECF6291EBBAF88680A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		BAE468B41D0DEECFA74041A4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		DECFA440B3D52FF98D7DEF44 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InAppText SDK Demo/Pods-InAppText SDK Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E7724DE0D3C59BC93AD35CED /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InAppText SDK Demo/Pods-InAppText SDK Demo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		FF5875D21E4C6CEF00B3F935 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF7DCD671E518B62000C8221 /* InComingTableViewCell.swift in Sources */,
+				FF5875DB1E4C6CEF00B3F935 /* ITChatViewController.swift in Sources */,
+				FF7DCD651E518B52000C8221 /* OutgoingTableViewCell.swift in Sources */,
+				FF7DCD6A1E518D10000C8221 /* ChatMessage.swift in Sources */,
+				FF5875EC1E4C738400B3F935 /* CBConstants.swift in Sources */,
+				FF5875D91E4C6CEF00B3F935 /* AppDelegate.swift in Sources */,
+				FF06B7951E5EB36E00B8793B /* TermsViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FF6894221E49ED9F00413100 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -175,6 +432,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		FF5875DC1E4C6CEF00B3F935 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF5875DD1E4C6CEF00B3F935 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FF5875E11E4C6CEF00B3F935 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FF5875E21E4C6CEF00B3F935 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		FF68942D1E49ED9F00413100 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -194,6 +467,42 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		FF5875E51E4C6CEF00B3F935 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2775FE1B61D3CCD2D6221F97 /* Pods-ChatBox-IncomeTax.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "ChatBox-IncomeTax/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zemosolabs.ChatBox-IncomeTax";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		FF5875E61E4C6CEF00B3F935 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 364D624436BA7229B2D6051C /* Pods-ChatBox-IncomeTax.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "ChatBox-IncomeTax/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.zemosolabs.ChatBox-IncomeTax";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		FF6894361E49ED9F00413100 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -279,6 +588,7 @@
 		};
 		FF6894391E49ED9F00413100 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A41041F28C1903390591791 /* Pods-InAppText SDK Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -295,6 +605,7 @@
 		};
 		FF68943A1E49ED9F00413100 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 44AAD15357D4257683DFFDA5 /* Pods-InAppText SDK Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -312,6 +623,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FF5875E71E4C6CEF00B3F935 /* Build configuration list for PBXNativeTarget "ChatBox-IncomeTax" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FF5875E51E4C6CEF00B3F935 /* Debug */,
+				FF5875E61E4C6CEF00B3F935 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FF6894211E49ED9F00413100 /* Build configuration list for PBXProject "InAppText SDK Demo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

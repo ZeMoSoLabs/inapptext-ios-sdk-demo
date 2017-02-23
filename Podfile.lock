@@ -1,0 +1,21 @@
+PODS:
+  - AI (0.0.6):
+    - AI/Core (= 0.0.6)
+  - AI/Core (0.0.6)
+  - RxCocoa (2.6.1):
+    - RxSwift (~> 2.6)
+  - RxSwift (2.6.1)
+
+DEPENDENCIES:
+  - AI (= 0.0.6)
+  - RxCocoa (~> 2.0)
+  - RxSwift (~> 2.0)
+
+SPEC CHECKSUMS:
+  AI: 406996cc3c37e3f6acba9b77040b285e06cfe59c
+  RxCocoa: 3bb2820fd2a1ba48a70d38926bec0803838ae802
+  RxSwift: 0147fbf94e65c6085da9540de92848189ac1c3f6
+
+PODFILE CHECKSUM: aa59ce0aa87c05d6c41b4f3e9982897e3273e5cf
+
+COCOAPODS: 1.2.0

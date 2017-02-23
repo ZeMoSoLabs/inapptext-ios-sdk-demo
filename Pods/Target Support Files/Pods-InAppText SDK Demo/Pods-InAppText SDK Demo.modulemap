@@ -1,0 +1,6 @@
+framework module Pods_InAppText_SDK_Demo {
+  umbrella header "Pods-InAppText SDK Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}
