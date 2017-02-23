@@ -36,10 +36,10 @@ class TermsViewController: UIViewController {
         mainText.appendAttributedString(salariedString)
         
         
-        let itLink = NSAttributedString(string: "\nFor more information refer - http://www.incometaxindia.gov.in/pages/tax-laws-rules.aspx", attributes: normalFontAttr)
+        let itLink = NSAttributedString(string: "\n\nFor more information refer - http://www.incometaxindia.gov.in/pages/tax-laws-rules.aspx", attributes: normalFontAttr)
         mainText.appendAttributedString(itLink)
         
-        let note = "\nNote : Any other additional fees and taxes to be paid are not included in the final tax calculation amount."
+        let note = "\n\nNote : Any other additional fees and taxes to be paid are not included in the final tax calculation amount."
         let noteAttStr = NSMutableAttributedString(string: note, attributes: [NSFontAttributeName: normalFont])
         noteAttStr.addAttribute(NSFontAttributeName, value: boldFont, range: (note as NSString).rangeOfString("Note"))
         mainText.appendAttributedString(noteAttStr)

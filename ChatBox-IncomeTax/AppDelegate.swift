@@ -20,6 +20,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         AI.configure(CB_CLIENT_ACCESS_TOKEN)
         InAppText.instantiateSDK(true, microphoneEnabled: true)
+        let navBarAppearance = UINavigationBar.appearance()
+        navBarAppearance.barTintColor = CBConstants.appColor
+        navBarAppearance.tintColor = CBConstants.whiteColor
+        let titleAttr =  [NSForegroundColorAttributeName: CBConstants.whiteColor ,
+                          NSFontAttributeName: UIFont(name: "HelveticaNeue-Bold", size: 18)!]
+        navBarAppearance.titleTextAttributes = titleAttr
         return true
     }
 

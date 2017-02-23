@@ -15,4 +15,20 @@ class CBConstants: NSObject {
     static let defaultWelcomeIntent = "Default Welcome Intent"
     
     static let defaultFallbackIntent = "Default Fallback Intent"
+    
+    static let appColor = UIColor.colorFromCode(0x1E9E5E)
+    
+    static let redColor = UIColor.colorFromCode(0xFF001F)
+    
+    static let whiteColor = UIColor.whiteColor()
+}
+
+extension UIColor {
+    class func colorFromCode(code: Int , alpha : CGFloat = 1) -> UIColor {
+        let red = CGFloat(((code & 0xFF0000) >> 16)) / 255
+        let green = CGFloat(((code & 0xFF00) >> 8)) / 255
+        let blue = CGFloat((code & 0xFF)) / 255
+        
+        return UIColor(red: red, green: green, blue: blue, alpha: alpha)
+    }
 }

@@ -42,6 +42,10 @@ class ITChatViewController: UIViewController {
         }.addDisposableTo(disposeBag)
         
         sendMessage.rx_tap.subscribeNext { _ in
+            if self.messageField.text!.isEmpty {
+                self.sendMessage.enabled = false
+                return
+            }
             let outputMessage = ChatMessage(message: self.messageField.text!)
             outputMessage.deliveryStatus.asObservable().subscribeNext({ (_) in
                 self.chatTableView.reloadData()
@@ -63,6 +67,7 @@ class ITChatViewController: UIViewController {
                     }
                     self.createResponseMessage(message)
                 }
+                
             }).failure({ error in
                 print(error)
                 if error.code == 206 && error.localizedDescription == "partial content" {
@@ -74,7 +79,7 @@ class ITChatViewController: UIViewController {
                 }
             })
             self.messageField.text = ""
-            self.messageField.rx_text// = ""
+            self.sendMessage.enabled = false
         }.addDisposableTo(disposeBag)
         
         voiceRecord.rx_tap.subscribeNext { (_) in
@@ -171,9 +176,9 @@ extension ITChatViewController : UITableViewDelegate , UITableViewDataSource {
             cell.deliveryStatus.text = chat.deliveryStatus.value.rawValue
             switch chat.deliveryStatus.value {
             case .Falied:
-                cell.deliveryStatus.textColor = UIColor.redColor()
+                cell.deliveryStatus.textColor = CBConstants.redColor
             case .Delivered:
-                cell.deliveryStatus.textColor = UIColor.greenColor()
+                cell.deliveryStatus.textColor = CBConstants.appColor
             default:
                 cell.deliveryStatus.textColor = UIColor.blackColor()
             }
