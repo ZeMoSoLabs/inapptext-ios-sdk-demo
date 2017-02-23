@@ -10,15 +10,15 @@
 		6C0EBFB088C5C977AA6B8DE8 /* Pods_InAppText_SDK_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAC5F211372C0809E9093531 /* Pods_InAppText_SDK_Demo.framework */; };
 		CF2F355CBBCB085772728F42 /* Pods_ChatBox_IncomeTax.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE6F9AA33DD65B3AE76A0BF /* Pods_ChatBox_IncomeTax.framework */; };
 		FF06B7951E5EB36E00B8793B /* TermsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF06B7941E5EB36E00B8793B /* TermsViewController.swift */; };
-		FF5875CF1E4C470F00B3F935 /* InAppTextSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5875CE1E4C470F00B3F935 /* InAppTextSDK.framework */; };
-		FF5875D01E4C471000B3F935 /* InAppTextSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF5875CE1E4C470F00B3F935 /* InAppTextSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF2FE32A1E5EEAF50076711B /* InAppTextSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2FE3291E5EEAF50076711B /* InAppTextSDK.framework */; };
+		FF2FE32B1E5EEAF50076711B /* InAppTextSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF2FE3291E5EEAF50076711B /* InAppTextSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		FF2FE32C1E5EEAFD0076711B /* InAppTextSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF2FE3291E5EEAF50076711B /* InAppTextSDK.framework */; };
+		FF2FE32D1E5EEAFD0076711B /* InAppTextSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF2FE3291E5EEAF50076711B /* InAppTextSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF5875D91E4C6CEF00B3F935 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5875D81E4C6CEF00B3F935 /* AppDelegate.swift */; };
 		FF5875DB1E4C6CEF00B3F935 /* ITChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5875DA1E4C6CEF00B3F935 /* ITChatViewController.swift */; };
 		FF5875DE1E4C6CEF00B3F935 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5875DC1E4C6CEF00B3F935 /* Main.storyboard */; };
 		FF5875E01E4C6CEF00B3F935 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF5875DF1E4C6CEF00B3F935 /* Assets.xcassets */; };
 		FF5875E31E4C6CEF00B3F935 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF5875E11E4C6CEF00B3F935 /* LaunchScreen.storyboard */; };
-		FF5875E81E4C6CF800B3F935 /* InAppTextSDK.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF5875CE1E4C470F00B3F935 /* InAppTextSDK.framework */; };
-		FF5875E91E4C6CF800B3F935 /* InAppTextSDK.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = FF5875CE1E4C470F00B3F935 /* InAppTextSDK.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		FF5875EC1E4C738400B3F935 /* CBConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF5875EB1E4C738400B3F935 /* CBConstants.swift */; };
 		FF68942A1E49ED9F00413100 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF6894291E49ED9F00413100 /* AppDelegate.swift */; };
 		FF68942F1E49ED9F00413100 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF68942D1E49ED9F00413100 /* Main.storyboard */; };
@@ -38,7 +38,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FF5875D01E4C471000B3F935 /* InAppTextSDK.framework in Embed Frameworks */,
+				FF2FE32B1E5EEAF50076711B /* InAppTextSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -49,7 +49,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				FF5875E91E4C6CF800B3F935 /* InAppTextSDK.framework in Embed Frameworks */,
+				FF2FE32D1E5EEAFD0076711B /* InAppTextSDK.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -64,7 +64,7 @@
 		ABE6F9AA33DD65B3AE76A0BF /* Pods_ChatBox_IncomeTax.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ChatBox_IncomeTax.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BAC5F211372C0809E9093531 /* Pods_InAppText_SDK_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_InAppText_SDK_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF06B7941E5EB36E00B8793B /* TermsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TermsViewController.swift; sourceTree = "<group>"; };
-		FF5875CE1E4C470F00B3F935 /* InAppTextSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = InAppTextSDK.framework; sourceTree = "<group>"; };
+		FF2FE3291E5EEAF50076711B /* InAppTextSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = InAppTextSDK.framework; sourceTree = "<group>"; };
 		FF5875D61E4C6CEF00B3F935 /* ChatBox-IncomeTax.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ChatBox-IncomeTax.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF5875D81E4C6CEF00B3F935 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FF5875DA1E4C6CEF00B3F935 /* ITChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ITChatViewController.swift; sourceTree = "<group>"; };
@@ -91,8 +91,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF5875E81E4C6CF800B3F935 /* InAppTextSDK.framework in Frameworks */,
 				CF2F355CBBCB085772728F42 /* Pods_ChatBox_IncomeTax.framework in Frameworks */,
+				FF2FE32C1E5EEAFD0076711B /* InAppTextSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -100,8 +100,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF5875CF1E4C470F00B3F935 /* InAppTextSDK.framework in Frameworks */,
 				6C0EBFB088C5C977AA6B8DE8 /* Pods_InAppText_SDK_Demo.framework in Frameworks */,
+				FF2FE32A1E5EEAF50076711B /* InAppTextSDK.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -148,8 +148,8 @@
 		FF68941D1E49ED9F00413100 = {
 			isa = PBXGroup;
 			children = (
+				FF2FE3291E5EEAF50076711B /* InAppTextSDK.framework */,
 				FF6894281E49ED9F00413100 /* InAppText SDK Demo */,
-				FF5875CE1E4C470F00B3F935 /* InAppTextSDK.framework */,
 				FF5875D71E4C6CEF00B3F935 /* ChatBox-IncomeTax */,
 				FF6894271E49ED9F00413100 /* Products */,
 				32F029D653B81F5597231D7E /* Pods */,
