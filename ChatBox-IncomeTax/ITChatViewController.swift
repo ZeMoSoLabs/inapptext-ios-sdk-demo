@@ -21,7 +21,7 @@ class ITChatViewController: UIViewController {
     @IBOutlet weak var voiceRecord: UIButton!
     @IBOutlet weak var postMessageViewBottomConstaint: NSLayoutConstraint!
     let disposeBag = DisposeBag()
-    var lastChatText = "To Calculate Tax simply reply \" tax \""
+    var lastChatText = CBConstants.placeHolderMessage
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -54,20 +54,32 @@ class ITChatViewController: UIViewController {
             let indexPath = NSIndexPath(forRow: self.chats.value.count-1, inSection: 0)
             self.chatTableView.scrollToRowAtIndexPath(indexPath, atScrollPosition: .Bottom, animated: true)
             AI.sharedService.TextRequest(self.messageField.text!).success({ response in
-                if !(response.result.metadata.intentName == CBConstants.defaultFallbackIntent || response.result.metadata.intentName == CBConstants.defaultWelcomeIntent) {
+                guard let fullfilment = response.result.fulfillment else {
+                    return
+                }
+                outputMessage.deliveryStatus.value = .Delivered
+                var responseMessage = fullfilment.speech
+                if let action = response.result.action where response.result.source == APIConstants.domains && action.lowercaseString.containsString(APIConstants.smallTalkAction) {
+                    if let range = responseMessage.lowercaseString.rangeOfString(CBConstants.placeHolderMessage.lowercaseString) {
+                        if self.lastChatText.lowercaseString != CBConstants.placeHolderMessage.lowercaseString {
+                            responseMessage.replaceRange(range, with: self.lastChatText)
+                        }
+                    }
+                    else if !self.lastChatText.isEmpty {
+                        responseMessage = responseMessage + (self.lastChatText.lowercaseString.containsString(CBConstants.smallTalkPlaceholder.lowercaseString) ? "\n" : "\nNow where were we.\n") + self.lastChatText
+                    }
+                    self.createResponseMessage(responseMessage)
+                    return
+                }
+                if !(response.result.metadata.intentName == APIConstants.defaultFallbackIntent || response.result.metadata.intentName == APIConstants.defaultWelcomeIntent || response.result.metadata.intentName == APIConstants.defaultDialogueIntent) {
                     self.lastChatText = ""
                 }
-                if let fullfilment = response.result.fulfillment {
-                    outputMessage.deliveryStatus.value = .Delivered
-                    var message:String = fullfilment.speech
-                    if !self.lastChatText.isEmpty {
-                        message = message + "\n" + self.lastChatText
-                    }else {
-                         self.lastChatText = fullfilment.speech
-                    }
-                    self.createResponseMessage(message)
+                if !self.lastChatText.isEmpty {
+                    responseMessage = responseMessage + "\n" + self.lastChatText
+                }else {
+                    self.lastChatText = fullfilment.speech
                 }
-                
+                self.createResponseMessage(responseMessage)
             }).failure({ error in
                 print(error)
                 if error.code == 206 && error.localizedDescription == "partial content" {
